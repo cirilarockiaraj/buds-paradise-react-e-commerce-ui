@@ -1,0 +1,196 @@
+{
+    "navigations":[
+        {
+            "name": "Home",
+            "url": "#"
+        },
+        {
+            "name": "Products",
+            "url": "#"
+        },
+        {
+            "name": "About",
+            "url": "#"
+        },
+        {
+            "name": "Contact",
+            "url": "#"
+        }
+    ],
+    "shop_by_category": [
+        {
+            "product_name": "Earphones",
+            "product_image": "https://static.vecteezy.com/system/resources/previews/071/493/455/non_2x/white-wired-earphones-isolated-on-transparent-background-free-png.png"
+        },
+        {
+            "product_name": "Earbuds",
+            "product_image": "https://media-ik.croma.com/Croma%20Assets/Communication/Headphones%20And%20Earphones/Images/324781_0_5eBA_rNFL.png"
+        },
+        {
+            "product_name": "Neckband",
+            "product_image": "https://image01-in.oneplus.net/media/202406/19/0ee6077679397b28e4dd6556c79635b3.png"
+        }
+    ],
+    "feature_products": [
+        {
+            "id": 1,
+            "product_name": "boAt Bassheads 100",
+            "category": "Earphones",
+            "product_image": "https://www.boat-lifestyle.com/cdn/shop/products/c3d0fbbd-9479-4351-bf04-91136da2ae91_600x.png",
+            "original_price": 999,
+            "current_price": 499
+        },
+        {
+            "id": 2,
+            "product_name": "boAt Bassheads 104",
+            "category": "Earphones",
+            "product_image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/headphone/h/t/b/-enriched-transparent-original-imagufgkyvxkxfbt.png",
+            "original_price": 999,
+            "current_price": 299
+        },
+        {
+            "id": 3,
+            "product_name": "JBL C100SI",
+            "category": "Earphones",
+            "product_image": "https://in.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw466aee66/C100SI_red-front_dvHAMaster.png",
+            "original_price": 1299,
+            "current_price": 699
+        },
+        {
+            "id": 4,
+            "product_name": "realme Buds 2",
+            "category": "Earphones",
+            "product_image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/headphone/q/r/b/buds-2-neo-realme-enriched-transparent-original-imag4925fcqwvgar.png",
+            "original_price": 999,
+            "current_price": 599
+        },
+        {
+            "id": 5,
+            "product_name": "OnePlus Bullets Wireless Z2",
+            "category": "Neckband",
+            "product_image": "https://image01-in.oneplus.net/media/202406/19/0ee6077679397b28e4dd6556c79635b3.png",
+            "original_price": 2299,
+            "current_price": 1799
+        },
+        {
+            "id": 6,
+            "product_name": "boAt Rockerz 255 Pro+",
+            "category": "Neckband",
+            "product_image": "https://www.boat-lifestyle.com/cdn/shop/products/756866f0-25e4-4b5d-8b7c-546c2111da69.png",
+            "original_price": 3990,
+            "current_price": 1499
+        },
+        {
+            "id": 7,
+            "product_name": "realme Buds Wireless 3",
+            "category": "Neckband",
+            "product_image": "https://media-ik.croma.com/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275191_0_i9l1lg.png",
+            "original_price": 2999,
+            "current_price": 1799
+        },
+        {
+            "id": 8,
+            "product_name": "Sony WI-C100",
+            "category": "Neckband",
+            "product_image": "https://www.sony.co.in/image/4e59487a5c5175284a49830878185789",
+            "original_price": 2490,
+            "current_price": 1990
+        },
+        {
+            "id": 9,
+            "product_name": "boAt Bassheads 102",
+            "category": "Earphones",
+            "product_image": "https://www.boat-lifestyle.com/cdn/shop/products/boat-bassheads-102-black_600x.png",
+            "original_price": 1290,
+            "current_price": 599
+        },
+        {
+            "id": 10,
+            "product_name": "Zebronics ZEB-BRO",
+            "category": "Earphones",
+            "product_image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/headphone/o/b/i/-enriched-transparent-original-imahhsdqagfyebrv.png",
+            "original_price": 399,
+            "current_price": 199
+        },
+        {
+            "id": 11,
+            "product_name": "realme Buds T300",
+            "category": "Earbuds",
+            "product_image": "https://media-ik.croma.com/Croma%20Assets/Entertainment/Wireless%20Earbuds/Images/300612_0_xyilqw.png",
+            "original_price": 2999,
+            "current_price": 1999
+        },
+        {
+            "id": 12,
+            "product_name": "Noise Buds VS104",
+            "category": "Earbuds",
+            "product_image": "https://cdn.zeptonow.com/production/ik-seo/cms/product_variant/67a9330c-a326-4b45-95c2-ec8f641638d3/Noise-Buds-VS104-45H-Playtime-4-Mic-ENC-13mm-Driver-Instacharge-TWS-Earbuds.png",
+            "original_price": 2999,
+            "current_price": 1299
+        },
+        {
+            "id": 13,
+            "product_name": "OnePlus Nord Buds",
+            "category": "Earbuds",
+            "product_image": "https://image01-in.oneplus.net/media/202409/02/94234eb859fb2c66e39137e1d000eb89.png",
+            "original_price": 2999,
+            "current_price": 1799
+        },
+        {
+            "id": 14,
+            "product_name": "boAt Airdopes 141",
+            "category": "Earbuds",
+            "product_image": "https://www.boat-lifestyle.com/cdn/shop/files/AD141-FI_Black01_600x.png",
+            "original_price": 2990,
+            "current_price": 999
+        },
+        {
+            "id": 15,
+            "product_name": "Redmi Buds 5A",
+            "category": "Earbuds",
+            "product_image": "https://i03.appmifile.com/600_item_in/04/07/2024/ff20a6058f205e2f8452ac3aa564242d.png",
+            "original_price": 1999,
+            "current_price": 1099
+        },
+        {
+            "id": 16,
+            "product_name": "OnePlus Nord Buds 3",
+            "category": "Earbuds",
+            "product_image": "https://image01-in.oneplus.net/media/202409/02/94234eb859fb2c66e39137e1d000eb89.png",
+            "original_price": 3999,
+            "current_price": 2799
+        },
+        {
+            "id": 17,
+            "product_name": "Noise Buds Trance",
+            "category": "Earbuds",
+            "product_image": "https://www.gonoise.com/cdn/shop/files/1.4_80336fed-428d-4fb9-a56a-4352692775c2.png",
+            "original_price": 2499,
+            "current_price": 999
+        },
+        {
+            "id": 18,
+            "product_name": "boAt Airdopes 181 Pro",
+            "category": "Earbuds",
+            "product_image": "https://www.boat-lifestyle.com/cdn/shop/files/Scene_05_Teal_1024x.png",
+            "original_price": 4990,
+            "current_price": 1199
+        },
+        {
+            "id": 19,
+            "product_name": "realme Buds T310",
+            "category": "Earbuds",
+            "product_image": "https://media-ik.croma.com/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/308611_0_MvW27rReq.png",
+            "original_price": 3999,
+            "current_price": 2399
+        },
+        {
+            "id": 20,
+            "product_name": "OnePlus Buds 3",
+            "category": "Earbuds",
+            "product_image": "https://image01-in.oneplus.net/media/202408/16/ee0fbf7ee1845d4993715f01791f85a2.png",
+            "original_price": 6499,
+            "current_price": 5499
+        }
+    ]
+}

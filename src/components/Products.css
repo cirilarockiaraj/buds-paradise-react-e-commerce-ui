@@ -1,0 +1,72 @@
+.card {
+    flex: 1 1 250px;
+    min-width: 250px;
+    border: 1px solid #e3e1e1;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card .card-img{
+    padding: 10px;
+    background-color: rgb(252 251 253);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-img img{
+    width: 40%;
+}
+
+.card .card-footer{
+    padding: 20px 30px; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card .card-footer .product-name{
+    font-weight: bold;
+}
+
+.card .card-footer .price{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card .card-footer .price .current-price{
+    color: rgb(118, 80, 234);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card .card-footer .price .original-price{
+    text-decoration: line-through;
+    font-weight: bold;
+    color: #787777;
+}
+
+.card .card-footer .btn{
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card .card-footer .btn:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.card .card-footer .add-cart-btn{
+    background-color: rgb(118, 80, 234);
+    color: white;
+}
+
+.card .card-footer .remove-cart-btn{
+    border: 1px solid #000;
+}

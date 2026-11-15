@@ -1,0 +1,256 @@
+
+/* ===== Navbar ===== */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  background-color: rgba(237, 235, 235, 0.2);
+  backdrop-filter: blur(20px);
+  opacity: 10px;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Logo ===== */
+
+.nav-bar .logo {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.nav-bar .logo span {
+  color: rgb(118, 80, 234);
+}
+
+/* ===== Navigation ===== */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  display: block;
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #2f2f2f;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: rgb(118, 80, 234);
+  border-bottom-color: rgb(118, 80, 234);
+}
+
+/* ===== Right Icons ===== */
+
+.nav-bar .head-end {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 15px;
+}
+
+.head-end button {
+  position: relative;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  color: #2f2f2f;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.head-end button:hover {
+  color: rgb(118, 80, 234);
+  transform: scale(1.1);
+}
+
+.head-end button:focus-visible,
+.nav-links a:focus-visible {
+  outline: 2px solid rgb(118, 80, 234);
+  outline-offset: 4px;
+}
+
+/* ===== Cart ===== */
+
+.cart-btn {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -9px;
+  right: -11px;
+  background: #6c3bdf;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 3px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Hamburger Hidden on Desktop ===== */
+
+.head-end .menu-toggle {
+  display: none;
+}
+
+/* ===== Tablet ===== */
+
+@media (max-width: 992px) {
+  .nav-bar {
+    padding: 18px 4%;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links li a {
+    font-size: 13px;
+  }
+
+  .nav-bar .logo {
+    font-size: 22px;
+  }
+}
+
+/* ===== Mobile Navbar ===== */
+
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 15px 20px;
+    flex-wrap: nowrap;
+  }
+
+  .nav-bar .logo {
+    font-size: 21px;
+  }
+
+  .nav-bar .head-end {
+    gap: 18px;
+    margin-left: auto;
+  }
+
+  .head-end button {
+    font-size: 18px;
+  }
+
+  /* Show Hamburger */
+  .head-end .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    padding: 4px;
+  }
+
+  /* Mobile Dropdown */
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+
+    background: white;
+    padding: 0 20px;
+
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    pointer-events: none;
+
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+
+    transition:
+      max-height 0.35s ease,
+      opacity 0.25s ease,
+      padding 0.35s ease,
+      visibility 0.35s;
+  }
+
+  /* Open Menu */
+  .nav-links.show-menu {
+    max-height: 70vh;
+    overflow-y: auto;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    padding: 15px 20px 20px;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 13px 15px;
+    font-size: 15px;
+    border-bottom: none;
+    border-radius: 8px;
+  }
+
+  .nav-links li a:hover,
+  .nav-links li a.active {
+    background: #f2edff;
+    color: #7650ea;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    padding: 12px 15px;
+    gap: 10px;
+  }
+
+  .nav-bar .logo {
+    font-size: 18px;
+  }
+
+  .nav-bar .head-end {
+    gap: 12px;
+    margin-left: auto;
+  }
+
+  .nav-bar .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

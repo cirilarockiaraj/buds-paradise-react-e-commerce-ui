@@ -1,0 +1,55 @@
+.banner {
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.banner .banner-content {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.banner .banner-content h1 {
+    font-size: 40px;
+}
+
+.banner .banner-content p {
+    font-size: 21px;
+    color: #4a4949;
+}
+
+.banner .banner-content button {
+    background-color: rgb(118, 80, 234);
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    width: 120px;
+    color: white;
+}
+
+.banner .banner-content button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 1226px) {
+    .banner .banner-content{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 826px) {
+    .banner {
+       display: none;
+    }
+}
